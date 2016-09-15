@@ -57,5 +57,16 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="RS queries" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="RS queries\2015 BizDev Event Spend &amp; Attendees.sql" />
+    <Build Include="RS queries\2015 Call Analysis by Role _ Type.sql" />
+    <Build Include="RS queries\2015 Conference Attendees.sql" />
+    <Build Include="RS queries\2015 Conference Spend.sql" />
+    <Build Include="RS queries\2015 Lit Orders by Shipping Method.sql" />
+    <Build Include="RS queries\2015 Lit Orders Placed.sql" />
+    <Build Include="RS queries\2015 Territory Event Spend &amp; Attendees.sql" />
+    <Build Include="RS queries\ROI_UnitCostByActivity.sql" />
   </ItemGroup>
 </Project>
